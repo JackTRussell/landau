@@ -1,7 +1,7 @@
 @ST_6 @Feature_customerListFeature @sameTag
 Feature: Customer list table
 
-@SC_18 @High @Search @sameTag @CustomerList
+@SC_18 @High @sameTag @Search @CustomerList
 Scenario Outline: Search
 Given I`m on a homepage
 When I enter in a text field called 'Enter search text' following text "<value>"
@@ -12,7 +12,7 @@ Examples:
 |Name|Logistics|
 
 
-@SC_19 @High @Pagination_001 @sameTag @CustomerList
+@SC_19 @High @sameTag @CustomerList @Pagination_001
 Scenario: Pagination_001 next page
 Given I`m on a homepage
 When I save values from columns
