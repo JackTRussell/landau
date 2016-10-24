@@ -1,7 +1,7 @@
-@ST_11236 @Story_BookSearch @ghjh
+@ST_7 @Story_BookSearch @ghjh
 Feature: Salary Management
 
-@SC_47026 @Critical @Test_1
+@SC_20 @Critical @Test_1
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
@@ -17,7 +17,7 @@ Examples:
 |dewie|
 
 
-@SC_47027 @High @Test_1
+@SC_21 @High @Test_1
 Scenario Outline: Modify an employee's salary
 Given the salary management system is initialized with the following data
 When the boss increases the salary for the <user> with id <id> by 5%
